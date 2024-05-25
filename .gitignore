@@ -1,0 +1,94 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración personal
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+*.swp
+
+# Dependencias
+node_modules/
+vendor/
+*.jar
+*.war
+
+# Archivos de compilación
+*.class
+*.o
+*.out
+*.log
+
+# Directorios de compilación
+/build/
+dist/
+target/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+
+# Archivos de bases de datos
+*.sqlite
+*.db
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Otros
+coverage/
+*.bak
+*.orig
+*.rej
+*.swo
+*.swp
+*.tmp
+*.temp
+*.log
+
+# Archivos de sistema específicos
+*.pid
+*.seed
+*.pid.lock
+
+# Archivos de logs
+*.log
+*.log.*
+
+# Archivos de imágenes generados
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+
+# Archivos de documentos generados
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+# Archivos de configuración de paquete
+*.yarn-integrity
+.pnp.*
+.pnpm-debug.log
+
+# Archivos de configuración de build
+*.tgz
+.parcel-cache/
+.cache/
+.eslintcache
+.stylelintcache
+
+# Archivos de configuración de servicios
+.firebase/
+.firestore/
