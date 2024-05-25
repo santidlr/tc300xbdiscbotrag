@@ -10,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@langchain/openai": "^0.0.33"
-  }
+    "@langchain/community": "^0.2.2",
+    "@langchain/openai": "^0.0.33",
+    "langchain": "^0.2.2",
+    "pdf-parse": "^1.1.1"
+  },
+  "type": "module"
 }
