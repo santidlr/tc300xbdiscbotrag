@@ -52,7 +52,7 @@ async function ragUsage(input) {
   // Example query
   const res = await chain.invoke({
     // query: "¿Cuál es el titulo del archivo PDF?",
-    query: `${input}`,
+    query: `Please limit this response to the prompt to a maximum of 1900 characters. ${input} `,
   });
 
   console.log({ res });
